@@ -2,15 +2,15 @@
 <testng-results total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-16T20:23:30Z" name="ElearningDemoSuite" finished-at="2020-07-16T20:23:31Z" duration-ms="1232">
+  <suite started-at="2020-07-18T07:48:53Z" name="ElearningDemoSuite" finished-at="2020-07-18T07:48:54Z" duration-ms="867">
     <groups>
       <group name="cucumber">
         <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.TestRunner@a1cdc6d]" name="feature" class="test.TestRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2020-07-16T20:23:30Z" name="ElearningTest" finished-at="2020-07-16T20:23:31Z" duration-ms="1232">
+    <test started-at="2020-07-18T07:48:53Z" name="ElearningTest" finished-at="2020-07-18T07:48:54Z" duration-ms="867">
       <class name="test.TestRunner">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.TestRunner@a1cdc6d]" started-at="2020-07-17T01:53:30Z" name="openBrowser" finished-at="2020-07-17T01:53:30Z" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.TestRunner@a1cdc6d]" started-at="2020-07-18T13:18:53Z" name="openBrowser" finished-at="2020-07-18T13:18:53Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html]]>
@@ -49,11 +49,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.TestRunner@a1cdc6d]" started-at="2020-07-17T01:53:30Z" name="setUpClass" finished-at="2020-07-17T01:53:31Z" duration-ms="652" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.TestRunner@a1cdc6d]" started-at="2020-07-18T13:18:53Z" name="setUpClass" finished-at="2020-07-18T13:18:53Z" duration-ms="453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.TestRunner@a1cdc6d]" started-at="2020-07-17T01:53:31Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-17T01:53:31Z" duration-ms="3" status="SKIP">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.TestRunner@a1cdc6d]" started-at="2020-07-18T13:18:53Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-18T13:18:53Z" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -64,7 +64,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.TestRunner@a1cdc6d]" started-at="2020-07-17T01:53:31Z" name="tearDownClass" finished-at="2020-07-17T01:53:31Z" duration-ms="435" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.TestRunner@a1cdc6d]" started-at="2020-07-18T13:18:53Z" name="tearDownClass" finished-at="2020-07-18T13:18:54Z" duration-ms="305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
