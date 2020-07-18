@@ -10,14 +10,16 @@ Feature: Sign up for new registration
     And Enter valid credential in first name "one" textbox
     And Enter valid credential in last name "one" textbox
     And Enter valid credential in e-mail "one@one.com" textbox
-    And Enter valid credential in username "user101" textbox
+    And Enter valid credential in username "user112" textbox
     And Enter valid credential in password "one" textbox
     And Enter valid credential in confirm password "one" textbox
     And Enter valid credential in phone "123" textbox
     And Selected Valid credentials from Language "English" list box
     And Click on Register button
     Then Validate the successful registration message "An e-mail has been sent to remind you of your login and password."
-
+		And user logs out from the application
+    And user close the browser
+		
   @teacher
   Scenario: TO verify whether application allows user to get registered as Teacher
     Given User should have launched the application
@@ -26,10 +28,12 @@ Feature: Sign up for new registration
     And Enter valid credential in first name "one" textbox
     And Enter valid credential in last name "one" textbox
     And Enter valid credential in e-mail "one@one.com" textbox
-    And Enter valid credential in username "user102" textbox
+    And Enter valid credential in username "user211" textbox
     And Enter valid credential in password "one" textbox
     And Enter valid credential in confirm password "one" textbox
     And Enter valid credential in phone "123" textbox
     And Selected Valid credentials from Language "English" list box
     And Click on Register button
     Then Validate the successful registration message "An e-mail has been sent to remind you of your login and password."
+		And user logs out from the application
+    And user close the browser

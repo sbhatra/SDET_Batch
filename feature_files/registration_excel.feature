@@ -17,6 +17,8 @@ Feature: Sign up for new registration
     And Selected Valid credentials from Language list box
     And Click on Register button
     Then Validate the successful registration message
+    And user logs out from the application
+    And user close the browser
 
   @teacher-excel
   Scenario: TO verify whether application allows user to get registered as Teacher
@@ -33,3 +35,5 @@ Feature: Sign up for new registration
     And Selected Valid credentials from Language list box
     And Click on Register button
     Then Validate the successful registration message
+    And user logs out from the application
+    And user close the browser

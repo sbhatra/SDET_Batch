@@ -3,19 +3,19 @@
     "line": 2,
     "elements": [
       {
-        "line": 25,
-        "name": "TO verify whether application allows user to get registered as Student",
+        "line": 24,
+        "name": "TO verify whether application allows user to get registered as Teacher",
         "description": "",
-        "id": "title-of-your-feature;to-verify-whether-application-allows-user-to-get-registered-as-student;;2",
+        "id": "sign-up-for-new-registration;to-verify-whether-application-allows-user-to-get-registered-as-teacher",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 13816754100,
+              "duration": 12525593000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 25,
             "name": "User should have launched the application",
             "match": {
               "location": "Registration_Excel_StepDefinition.user_should_have_launched_the_application()"
@@ -24,10 +24,10 @@
           },
           {
             "result": {
-              "duration": 4219397500,
+              "duration": 2228784500,
               "status": "passed"
             },
-            "line": 8,
+            "line": 26,
             "name": "Click on Sign Up! link",
             "match": {
               "location": "Registration_Excel_StepDefinition.click_on_Sign_Up_link()"
@@ -36,190 +36,118 @@
           },
           {
             "result": {
-              "duration": 70966200,
+              "duration": 87655700,
               "status": "passed"
             },
-            "line": 9,
-            "name": "Click on Courses icon for Student",
+            "line": 27,
+            "name": "Click on Courses icon for Teacher",
             "match": {
-              "location": "Registration_Excel_StepDefinition.click_on_Courses_icon_for_Student()"
+              "location": "Registration_Excel_StepDefinition.click_on_Courses_icon_for_Teacher()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 118241200,
+              "duration": 917169900,
               "status": "passed"
             },
-            "line": 10,
-            "name": "Enter valid credential in first name \"fname1\" textbox",
+            "line": 28,
+            "name": "Enter valid credential in first name textbox",
             "match": {
-              "arguments": [
-                {
-                  "val": "fname1",
-                  "offset": 38
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_first_name_textbox(String)"
+              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_first_name_textbox()"
             },
-            "matchedColumns": [
-              0
-            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 107761400,
+              "duration": 207259600,
               "status": "passed"
             },
-            "line": 11,
-            "name": "Enter valid credential in last name \"lname1\" textbox",
+            "line": 29,
+            "name": "Enter valid credential in last name textbox",
             "match": {
-              "arguments": [
-                {
-                  "val": "lname1",
-                  "offset": 37
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_last_name_textbox(String)"
+              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_last_name_textbox()"
             },
-            "matchedColumns": [
-              1
-            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 158186900,
+              "duration": 289128200,
               "status": "passed"
             },
-            "line": 12,
-            "name": "Enter valid credential in e-mail \"one@one.com\" textbox",
+            "line": 30,
+            "name": "Enter valid credential in e-mail textbox",
             "match": {
-              "arguments": [
-                {
-                  "val": "one@one.com",
-                  "offset": 34
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_e_mail_textbox(String)"
+              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_e_mail_textbox()"
             },
-            "matchedColumns": [
-              2
-            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 101345600,
+              "duration": 152833200,
               "status": "passed"
             },
-            "line": 13,
-            "name": "Enter valid credential in username \"hello501\" textbox",
+            "line": 31,
+            "name": "Enter valid credential in username textbox",
             "match": {
-              "arguments": [
-                {
-                  "val": "hello501",
-                  "offset": 36
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_username_textbox(String)"
+              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_username_textbox()"
             },
-            "matchedColumns": [
-              3
-            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 88759000,
+              "duration": 160233300,
               "status": "passed"
             },
-            "line": 14,
-            "name": "Enter valid credential in password \"one\" textbox",
+            "line": 32,
+            "name": "Enter valid credential in password textbox",
             "match": {
-              "arguments": [
-                {
-                  "val": "one",
-                  "offset": 36
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_password_textbox(String)"
+              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_password_textbox()"
             },
-            "matchedColumns": [
-              4
-            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 84075300,
+              "duration": 149687500,
               "status": "passed"
             },
-            "line": 15,
-            "name": "Enter valid credential in confirm password \"one\" textbox",
+            "line": 33,
+            "name": "Enter valid credential in confirm password textbox",
             "match": {
-              "arguments": [
-                {
-                  "val": "one",
-                  "offset": 44
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_confirm_password_textbox(String)"
+              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_confirm_password_textbox()"
             },
-            "matchedColumns": [
-              5
-            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 79655500,
+              "duration": 149797600,
               "status": "passed"
             },
-            "line": 16,
-            "name": "Enter valid credential in phone \"123\" textbox",
+            "line": 34,
+            "name": "Enter valid credential in phone textbox",
             "match": {
-              "arguments": [
-                {
-                  "val": "123",
-                  "offset": 33
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_phone_textbox(String)"
+              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_phone_textbox()"
             },
-            "matchedColumns": [
-              6
-            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 262506400,
+              "duration": 301008600,
               "status": "passed"
             },
-            "line": 17,
-            "name": "Selected Valid credentials from Language \"English\" list box",
+            "line": 35,
+            "name": "Selected Valid credentials from Language list box",
             "match": {
-              "arguments": [
-                {
-                  "val": "English",
-                  "offset": 42
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.selected_Valid_credentials_from_Language_list_box(String)"
+              "location": "Registration_Excel_StepDefinition.selected_Valid_credentials_from_Language_list_box()"
             },
-            "matchedColumns": [
-              7
-            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2360983500,
+              "duration": 2394479300,
               "status": "passed"
             },
-            "line": 18,
+            "line": 36,
             "name": "Click on Register button",
             "match": {
               "location": "Registration_Excel_StepDefinition.click_on_Register_button()"
@@ -228,31 +156,22 @@
           },
           {
             "result": {
-              "duration": 36000200,
+              "duration": 63110300,
               "status": "passed"
             },
-            "line": 19,
-            "name": "Validate the successful registration message \"An e-mail has been sent to remind you of your login and password.\"",
+            "line": 37,
+            "name": "Validate the successful registration message",
             "match": {
-              "arguments": [
-                {
-                  "val": "An e-mail has been sent to remind you of your login and password.",
-                  "offset": 46
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.Validate_the_successful_registration_message(String)"
+              "location": "Registration_Excel_StepDefinition.Validate_the_successful_registration_message()"
             },
-            "matchedColumns": [
-              8
-            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1315920200,
+              "duration": 1329683200,
               "status": "passed"
             },
-            "line": 20,
+            "line": 38,
             "name": "user logs out from the application",
             "match": {
               "location": "Registration_Excel_StepDefinition.user_clicks_on_Sign_Up_link()"
@@ -261,10 +180,10 @@
           },
           {
             "result": {
-              "duration": 747825700,
+              "duration": 730949700,
               "status": "passed"
             },
-            "line": 21,
+            "line": 39,
             "name": "user close the browser",
             "match": {
               "location": "Registration_Excel_StepDefinition.user_close_the_browser()"
@@ -274,864 +193,17 @@
         ],
         "tags": [
           {
-            "line": 1,
-            "name": "@tag"
-          },
-          {
-            "line": 5,
-            "name": "@student-outline"
-          }
-        ]
-      },
-      {
-        "line": 26,
-        "name": "TO verify whether application allows user to get registered as Student",
-        "description": "",
-        "id": "title-of-your-feature;to-verify-whether-application-allows-user-to-get-registered-as-student;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 13042880400,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User should have launched the application",
-            "match": {
-              "location": "Registration_Excel_StepDefinition.user_should_have_launched_the_application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4052742700,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Click on Sign Up! link",
-            "match": {
-              "location": "Registration_Excel_StepDefinition.click_on_Sign_Up_link()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 79461600,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "Click on Courses icon for Student",
-            "match": {
-              "location": "Registration_Excel_StepDefinition.click_on_Courses_icon_for_Student()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 102913700,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "Enter valid credential in first name \"fname1\" textbox",
-            "match": {
-              "arguments": [
-                {
-                  "val": "fname1",
-                  "offset": 38
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_first_name_textbox(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 114828600,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "Enter valid credential in last name \"lname1\" textbox",
-            "match": {
-              "arguments": [
-                {
-                  "val": "lname1",
-                  "offset": 37
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_last_name_textbox(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 169531400,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "Enter valid credential in e-mail \"one@one.com\" textbox",
-            "match": {
-              "arguments": [
-                {
-                  "val": "one@one.com",
-                  "offset": 34
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_e_mail_textbox(String)"
-            },
-            "matchedColumns": [
-              2
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 98292600,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "Enter valid credential in username \"hello502\" textbox",
-            "match": {
-              "arguments": [
-                {
-                  "val": "hello502",
-                  "offset": 36
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_username_textbox(String)"
-            },
-            "matchedColumns": [
-              3
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 93929300,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "Enter valid credential in password \"one\" textbox",
-            "match": {
-              "arguments": [
-                {
-                  "val": "one",
-                  "offset": 36
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_password_textbox(String)"
-            },
-            "matchedColumns": [
-              4
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 79298900,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "Enter valid credential in confirm password \"one\" textbox",
-            "match": {
-              "arguments": [
-                {
-                  "val": "one",
-                  "offset": 44
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_confirm_password_textbox(String)"
-            },
-            "matchedColumns": [
-              5
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 76271500,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Enter valid credential in phone \"123\" textbox",
-            "match": {
-              "arguments": [
-                {
-                  "val": "123",
-                  "offset": 33
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_phone_textbox(String)"
-            },
-            "matchedColumns": [
-              6
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 249903800,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "Selected Valid credentials from Language \"English\" list box",
-            "match": {
-              "arguments": [
-                {
-                  "val": "English",
-                  "offset": 42
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.selected_Valid_credentials_from_Language_list_box(String)"
-            },
-            "matchedColumns": [
-              7
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2530524700,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "Click on Register button",
-            "match": {
-              "location": "Registration_Excel_StepDefinition.click_on_Register_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 45384900,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "Validate the successful registration message \"An e-mail has been sent to remind you of your login and password.\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "An e-mail has been sent to remind you of your login and password.",
-                  "offset": 46
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.Validate_the_successful_registration_message(String)"
-            },
-            "matchedColumns": [
-              8
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1250085100,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "user logs out from the application",
-            "match": {
-              "location": "Registration_Excel_StepDefinition.user_clicks_on_Sign_Up_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 650942200,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "user close the browser",
-            "match": {
-              "location": "Registration_Excel_StepDefinition.user_close_the_browser()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 1,
-            "name": "@tag"
-          },
-          {
-            "line": 5,
-            "name": "@student-outline"
-          }
-        ]
-      },
-      {
-        "line": 27,
-        "name": "TO verify whether application allows user to get registered as Student",
-        "description": "",
-        "id": "title-of-your-feature;to-verify-whether-application-allows-user-to-get-registered-as-student;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 12625144400,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User should have launched the application",
-            "match": {
-              "location": "Registration_Excel_StepDefinition.user_should_have_launched_the_application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4161840200,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Click on Sign Up! link",
-            "match": {
-              "location": "Registration_Excel_StepDefinition.click_on_Sign_Up_link()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 81600200,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "Click on Courses icon for Student",
-            "match": {
-              "location": "Registration_Excel_StepDefinition.click_on_Courses_icon_for_Student()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 135371100,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "Enter valid credential in first name \"fname1\" textbox",
-            "match": {
-              "arguments": [
-                {
-                  "val": "fname1",
-                  "offset": 38
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_first_name_textbox(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 120901500,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "Enter valid credential in last name \"lname1\" textbox",
-            "match": {
-              "arguments": [
-                {
-                  "val": "lname1",
-                  "offset": 37
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_last_name_textbox(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 145624700,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "Enter valid credential in e-mail \"one@one.com\" textbox",
-            "match": {
-              "arguments": [
-                {
-                  "val": "one@one.com",
-                  "offset": 34
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_e_mail_textbox(String)"
-            },
-            "matchedColumns": [
-              2
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 110440300,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "Enter valid credential in username \"hello503\" textbox",
-            "match": {
-              "arguments": [
-                {
-                  "val": "hello503",
-                  "offset": 36
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_username_textbox(String)"
-            },
-            "matchedColumns": [
-              3
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 97692800,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "Enter valid credential in password \"one\" textbox",
-            "match": {
-              "arguments": [
-                {
-                  "val": "one",
-                  "offset": 36
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_password_textbox(String)"
-            },
-            "matchedColumns": [
-              4
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 103241300,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "Enter valid credential in confirm password \"one\" textbox",
-            "match": {
-              "arguments": [
-                {
-                  "val": "one",
-                  "offset": 44
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_confirm_password_textbox(String)"
-            },
-            "matchedColumns": [
-              5
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 252618500,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Enter valid credential in phone \"123\" textbox",
-            "match": {
-              "arguments": [
-                {
-                  "val": "123",
-                  "offset": 33
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_phone_textbox(String)"
-            },
-            "matchedColumns": [
-              6
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 306494400,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "Selected Valid credentials from Language \"English\" list box",
-            "match": {
-              "arguments": [
-                {
-                  "val": "English",
-                  "offset": 42
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.selected_Valid_credentials_from_Language_list_box(String)"
-            },
-            "matchedColumns": [
-              7
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2498283400,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "Click on Register button",
-            "match": {
-              "location": "Registration_Excel_StepDefinition.click_on_Register_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 45913500,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "Validate the successful registration message \"An e-mail has been sent to remind you of your login and password.\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "An e-mail has been sent to remind you of your login and password.",
-                  "offset": 46
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.Validate_the_successful_registration_message(String)"
-            },
-            "matchedColumns": [
-              8
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1360495900,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "user logs out from the application",
-            "match": {
-              "location": "Registration_Excel_StepDefinition.user_clicks_on_Sign_Up_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 766502400,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "user close the browser",
-            "match": {
-              "location": "Registration_Excel_StepDefinition.user_close_the_browser()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 1,
-            "name": "@tag"
-          },
-          {
-            "line": 5,
-            "name": "@student-outline"
-          }
-        ]
-      },
-      {
-        "line": 28,
-        "name": "TO verify whether application allows user to get registered as Student",
-        "description": "",
-        "id": "title-of-your-feature;to-verify-whether-application-allows-user-to-get-registered-as-student;;5",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 13816488100,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User should have launched the application",
-            "match": {
-              "location": "Registration_Excel_StepDefinition.user_should_have_launched_the_application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4468615800,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Click on Sign Up! link",
-            "match": {
-              "location": "Registration_Excel_StepDefinition.click_on_Sign_Up_link()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 81587900,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "Click on Courses icon for Student",
-            "match": {
-              "location": "Registration_Excel_StepDefinition.click_on_Courses_icon_for_Student()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 129073600,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "Enter valid credential in first name \"fname1\" textbox",
-            "match": {
-              "arguments": [
-                {
-                  "val": "fname1",
-                  "offset": 38
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_first_name_textbox(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 97663600,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "Enter valid credential in last name \"lname1\" textbox",
-            "match": {
-              "arguments": [
-                {
-                  "val": "lname1",
-                  "offset": 37
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_last_name_textbox(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 108989700,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "Enter valid credential in e-mail \"one@one.com\" textbox",
-            "match": {
-              "arguments": [
-                {
-                  "val": "one@one.com",
-                  "offset": 34
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_e_mail_textbox(String)"
-            },
-            "matchedColumns": [
-              2
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 101297700,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "Enter valid credential in username \"hello504\" textbox",
-            "match": {
-              "arguments": [
-                {
-                  "val": "hello504",
-                  "offset": 36
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_username_textbox(String)"
-            },
-            "matchedColumns": [
-              3
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 91705900,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "Enter valid credential in password \"one\" textbox",
-            "match": {
-              "arguments": [
-                {
-                  "val": "one",
-                  "offset": 36
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_password_textbox(String)"
-            },
-            "matchedColumns": [
-              4
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 83261400,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "Enter valid credential in confirm password \"one\" textbox",
-            "match": {
-              "arguments": [
-                {
-                  "val": "one",
-                  "offset": 44
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_confirm_password_textbox(String)"
-            },
-            "matchedColumns": [
-              5
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 114566500,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Enter valid credential in phone \"123\" textbox",
-            "match": {
-              "arguments": [
-                {
-                  "val": "123",
-                  "offset": 33
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.enter_valid_credential_in_phone_textbox(String)"
-            },
-            "matchedColumns": [
-              6
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 280700600,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "Selected Valid credentials from Language \"English\" list box",
-            "match": {
-              "arguments": [
-                {
-                  "val": "English",
-                  "offset": 42
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.selected_Valid_credentials_from_Language_list_box(String)"
-            },
-            "matchedColumns": [
-              7
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2462464400,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "Click on Register button",
-            "match": {
-              "location": "Registration_Excel_StepDefinition.click_on_Register_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 36282100,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "Validate the successful registration message \"An e-mail has been sent to remind you of your login and password.\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "An e-mail has been sent to remind you of your login and password.",
-                  "offset": 46
-                }
-              ],
-              "location": "Registration_Excel_StepDefinition.Validate_the_successful_registration_message(String)"
-            },
-            "matchedColumns": [
-              8
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1228768200,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "user logs out from the application",
-            "match": {
-              "location": "Registration_Excel_StepDefinition.user_clicks_on_Sign_Up_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 760479700,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "user close the browser",
-            "match": {
-              "location": "Registration_Excel_StepDefinition.user_close_the_browser()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 1,
-            "name": "@tag"
-          },
-          {
-            "line": 5,
-            "name": "@student-outline"
+            "line": 23,
+            "name": "@teacher-excel"
           }
         ]
       }
     ],
-    "name": "Title of your feature",
-    "description": "I want to use this template for my feature file",
-    "id": "title-of-your-feature",
+    "name": "Sign up for new registration",
+    "description": "I want to sign up as a Student and as a Teacher",
+    "id": "sign-up-for-new-registration",
     "keyword": "Feature",
-    "uri": "registration_outline.feature",
+    "uri": "registration_excel.feature",
     "tags": [
       {
         "line": 1,

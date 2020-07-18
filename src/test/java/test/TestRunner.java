@@ -11,7 +11,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="feature_files", glue= "stepdefinitions", tags="@student-outline", 
+@CucumberOptions(features="feature_files", glue= "stepdefinitions", tags="@teacher-excel", 
 format=
 {"pretty",
 		"html:target/cucumber-reports/cucumber-pretty",
